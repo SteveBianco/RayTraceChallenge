@@ -1,4 +1,5 @@
 #pragma once
+#include "Constants.h"
 
 // A 4-dimensional vector used to represent points and vectors in 3d
 // using homegeneous coordinates. A 3d vector is represented by (x, y, z, 0) and
@@ -30,4 +31,8 @@ Tuple operator- (const Tuple&, const Tuple&);
 Tuple operator* (double s, const Tuple& t);
 Tuple operator* (const Tuple& t, double s);
 
-double dot(const Tuple&, const Tuple&);
+double dot(const Tuple&, const Tuple&);  
+
+bool isZero(const Tuple& t1, double tolerance = EPSILON);
+bool areEqual(const Tuple& t1, const Tuple& t2, double tolerance = EPSILON);
+bool areEqual(double x1, double x2, double tolerance = EPSILON);
