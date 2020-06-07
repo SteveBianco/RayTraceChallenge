@@ -144,11 +144,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="MathUtil\Tuple.cpp" />
+    <ClCompile Include="PuttingItTogether\Trajectory.cpp" />
     <ClCompile Include="RayTraceChallenge.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MathUtil\Constants.h" />
     <ClInclude Include="MathUtil\Tuple.h" />
+    <ClInclude Include="PuttingItTogether\Trajectory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

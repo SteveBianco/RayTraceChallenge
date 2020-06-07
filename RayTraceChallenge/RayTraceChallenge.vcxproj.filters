@@ -16,6 +16,12 @@
     <Filter Include="Source Files\MathUtil">
       <UniqueIdentifier>{91e51cbb-58ea-4e5e-9c7f-2744c0ad603c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\PuttingItTogether">
+      <UniqueIdentifier>{ce22a93d-e72d-4e2d-9d23-0cb13c5d5bde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PuttingItTogether\Chapter_1">
+      <UniqueIdentifier>{ed8dba8e-da33-41e2-acaa-1ea21a707399}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="RayTraceChallenge.cpp">
@@ -24,6 +30,9 @@
     <ClCompile Include="MathUtil\Tuple.cpp">
       <Filter>Source Files\MathUtil</Filter>
     </ClCompile>
+    <ClCompile Include="PuttingItTogether\Trajectory.cpp">
+      <Filter>Source Files\PuttingItTogether\Chapter_1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MathUtil\Tuple.h">
@@ -31,6 +40,9 @@
     </ClInclude>
     <ClInclude Include="MathUtil\Constants.h">
       <Filter>Source Files\MathUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="PuttingItTogether\Trajectory.h">
+      <Filter>Source Files\PuttingItTogether\Chapter_1</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
