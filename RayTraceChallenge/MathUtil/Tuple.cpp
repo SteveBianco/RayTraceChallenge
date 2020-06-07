@@ -76,6 +76,10 @@ double dot(const Tuple& t1, const Tuple& t2) {
 	return t1.x * t2.x + t1.y * t2.y + t1.z * t2.z + t1.w * t2.w;
 }
 
+Tuple cross(const Tuple& a, const Tuple& b) {
+	return Tuple(a.y * b.z - a.z * b.y, a.z * b.x - a.x * b.z, a.x * b.y - a.y * b.x, 0);
+}
+
 bool isZero(const Tuple& t1, double tolerance) {
 	return dot(t1, t1) < tolerance * tolerance;
 }
