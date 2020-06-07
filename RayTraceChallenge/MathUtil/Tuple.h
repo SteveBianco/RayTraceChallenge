@@ -31,7 +31,6 @@ Tuple operator- (const Tuple&, const Tuple&);
 Tuple operator* (double s, const Tuple& t);
 Tuple operator* (const Tuple& t, double s);
 
-
 // The dot product using all 4 components.
 double dot(const Tuple&, const Tuple&);
 
@@ -43,3 +42,6 @@ Tuple cross(const Tuple&, const Tuple&);
 bool isZero(const Tuple& t1, double tolerance = EPSILON);
 bool areEqual(const Tuple& t1, const Tuple& t2, double tolerance = EPSILON);
 bool areEqual(double x1, double x2, double tolerance = EPSILON);
+
+using Point = Tuple;
+using Vector = Tuple;
