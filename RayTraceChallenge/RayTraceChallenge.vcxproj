@@ -143,11 +143,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Canvas.cpp" />
+    <ClCompile Include="Color.cpp" />
     <ClCompile Include="MathUtil\Tuple.cpp" />
     <ClCompile Include="PuttingItTogether\Trajectory.cpp" />
     <ClCompile Include="RayTraceChallenge.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Canvas.h" />
+    <ClInclude Include="Color.h" />
     <ClInclude Include="MathUtil\Constants.h" />
     <ClInclude Include="MathUtil\Tuple.h" />
     <ClInclude Include="PuttingItTogether\Trajectory.h" />

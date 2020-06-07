@@ -22,6 +22,9 @@
     <Filter Include="Source Files\PuttingItTogether\Chapter_1">
       <UniqueIdentifier>{ed8dba8e-da33-41e2-acaa-1ea21a707399}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{4cf73df3-66c3-49a3-92a4-c34a2c4ef189}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="RayTraceChallenge.cpp">
@@ -33,6 +36,12 @@
     <ClCompile Include="PuttingItTogether\Trajectory.cpp">
       <Filter>Source Files\PuttingItTogether\Chapter_1</Filter>
     </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MathUtil\Tuple.h">
@@ -43,6 +52,12 @@
     </ClInclude>
     <ClInclude Include="PuttingItTogether\Trajectory.h">
       <Filter>Source Files\PuttingItTogether\Chapter_1</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Source Files\Graphics</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
