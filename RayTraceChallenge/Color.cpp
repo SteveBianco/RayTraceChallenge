@@ -1,12 +1,12 @@
 #include "Color.h"
 
-Color::Color(double red, double green, double blue) :
-	red(red), green(green), blue(blue) {
+//constexpr Color::Color(double red, double green, double blue) :
+//	red(red), green(green), blue(blue) {
+//
+//}
 
-}
-
-const Color Color::White = Color(0.0, 0.0, 0.0);
-const Color Color::Black = Color(1.0, 1.0, 1.0);
+static Color White = Color{ 1.0, 1.0, 1.0 };
+static Color Black = Color{ 0.0, 0.0, 0.0 };
 
 Color operator+ (const Color& c1, const Color& c2) {
 	return Color{ c1.red + c2.red, c1.green + c2.green, c1.blue + c2.blue };

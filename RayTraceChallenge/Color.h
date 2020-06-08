@@ -7,10 +7,12 @@ the range [0, 1] but it is not enforced.
 struct Color {
 	double red, green, blue;
 
-	Color(double red = 0.0, double green = 0.0, double blue = 0.0);
+	constexpr Color(double red = 0.0, double green = 0.0, double blue = 0.0)
+		: red(red), green(green), blue(blue) {
+	}
 
-	static const Color White;
-	static const Color Black;
+	static Color White;
+	static Color Black;
 };
 
 // Standard operators for combining colors.
