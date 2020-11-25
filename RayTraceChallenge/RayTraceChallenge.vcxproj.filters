@@ -33,13 +33,10 @@
     <ClCompile Include="MathUtil\Tuple.cpp">
       <Filter>Source Files\MathUtil</Filter>
     </ClCompile>
-    <ClCompile Include="PuttingItTogether\Trajectory.cpp">
-      <Filter>Source Files\PuttingItTogether\Chapter_1</Filter>
-    </ClCompile>
-    <ClCompile Include="Canvas.cpp">
+    <ClCompile Include="Graphics\Canvas.cpp">
       <Filter>Source Files\Graphics</Filter>
     </ClCompile>
-    <ClCompile Include="Color.cpp">
+    <ClCompile Include="Graphics\Color.cpp">
       <Filter>Source Files\Graphics</Filter>
     </ClCompile>
   </ItemGroup>
@@ -50,13 +47,10 @@
     <ClInclude Include="MathUtil\Constants.h">
       <Filter>Source Files\MathUtil</Filter>
     </ClInclude>
-    <ClInclude Include="PuttingItTogether\Trajectory.h">
-      <Filter>Source Files\PuttingItTogether\Chapter_1</Filter>
-    </ClInclude>
-    <ClInclude Include="Canvas.h">
+    <ClInclude Include="Graphics\Canvas.h">
       <Filter>Source Files\Graphics</Filter>
     </ClInclude>
-    <ClInclude Include="Color.h">
+    <ClInclude Include="Graphics\Color.h">
       <Filter>Source Files\Graphics</Filter>
     </ClInclude>
   </ItemGroup>

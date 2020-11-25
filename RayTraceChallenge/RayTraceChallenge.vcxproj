@@ -72,15 +72,23 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\$(ProjectName)\$(Platform)\$(Configuration)</OutDir>
+    <IntDir>$(SolutionDir)bin\intermediate\$(ProjectName)\$(Platform)\$(Configuration)</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\$(ProjectName)\$(Platform)\$(Configuration)</OutDir>
+    <IntDir>$(SolutionDir)bin\intermediate\$(ProjectName)\$(Platform)\$(Configuration)</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\$(ProjectName)\$(Platform)\$(Configuration)</OutDir>
+    <IntDir>$(SolutionDir)bin\intermediate\$(ProjectName)\$(Platform)\$(Configuration)</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\$(ProjectName)\$(Platform)\$(Configuration)</OutDir>
+    <IntDir>$(SolutionDir)bin\intermediate\$(ProjectName)\$(Platform)\$(Configuration)</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -147,18 +155,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Canvas.cpp" />
-    <ClCompile Include="Color.cpp" />
+    <ClCompile Include="Graphics\Canvas.cpp" />
+    <ClCompile Include="Graphics\Color.cpp" />
     <ClCompile Include="MathUtil\Tuple.cpp" />
-    <ClCompile Include="PuttingItTogether\Trajectory.cpp" />
     <ClCompile Include="RayTraceChallenge.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Canvas.h" />
-    <ClInclude Include="Color.h" />
+    <ClInclude Include="Graphics\Canvas.h" />
+    <ClInclude Include="Graphics\Color.h" />
     <ClInclude Include="MathUtil\Constants.h" />
     <ClInclude Include="MathUtil\Tuple.h" />
-    <ClInclude Include="PuttingItTogether\Trajectory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

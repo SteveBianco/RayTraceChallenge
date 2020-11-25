@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MathUtilTest.cpp">
+    <ClCompile Include="..\RayTraceChallenge\MathUtil\Tuple.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\RayTraceChallenge\MathUtil\Tuple.cpp">
+    <ClCompile Include="Day_01.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

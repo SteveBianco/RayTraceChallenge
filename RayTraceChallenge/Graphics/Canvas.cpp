@@ -21,7 +21,7 @@ Canvas::Canvas(unsigned int width, unsigned int height, Color color)
 
 }
 
-void Canvas::setPixel(unsigned int x, unsigned int y, const Color& color) {
+void Canvas::setColor(unsigned int x, unsigned int y, const Color& color) {
 	const auto idx = toSingleIndex(x, y);
 	pixels_[idx] = color;
 }

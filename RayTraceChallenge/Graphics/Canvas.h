@@ -15,6 +15,6 @@ class Canvas {
 public:
 	Canvas(unsigned int width, unsigned int height, Color fillColor = Color::White);
 
-	void setPixel(unsigned int x, unsigned int y, const Color& color);
+	void setColor(unsigned int x, unsigned int y, const Color& color);
 	const Color& getColor(unsigned int x, unsigned int y) const;
 };
